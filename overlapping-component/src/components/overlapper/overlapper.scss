@@ -1,0 +1,41 @@
+.overlapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    &__container {
+        position: relative;
+        height: 600px;
+        width: 800px;
+        box-shadow: 5px 5px 16px -1px rgba(0,0,0,0.55);
+        user-select: none;
+
+        &__resizer {
+            position: absolute;
+            height: 100%;
+            width: 8px;
+            background-color: #a89132;
+            left: 50%;
+            z-index: 3;
+            cursor: col-resize;
+        }
+
+        &__base-image {
+            z-index: 1;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            user-select: none;
+        }
+
+        &__top-image {
+            z-index: 2;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            user-select: none;
+            clip-path: inset(0 0 0 51%);
+        }
+    }
+}
