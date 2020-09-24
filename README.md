@@ -3,7 +3,7 @@ This project is an implementation of a design component often seen on a lot of w
 
 ## Demo
 
-<img src="resources/demo.gif" height="60%" width="100%"/>
+<img src="resources/demo.gif" height="30%" width="50%"/>
 
 ## Technologies
 
