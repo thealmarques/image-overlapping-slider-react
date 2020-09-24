@@ -1,2 +1,34 @@
-# image-overlapping-react
-Image overlapping component written in React
+# Image Overlapping slider - React
+This project is an implementation of a design componenent often seen in a lot of websites.
+I opted to do a React implementation to keep my skills up to date.
+
+## Demo
+
+<img src="resources/demo.gif" height="60%" width="100%"/>
+
+## Technologies
+
+* React Hooks
+* Sass
+
+## Installation
+
+Clone this repository into your local PC and run
+
+```node
+cd overlapping-component
+npm install
+```
+
+## Usage
+
+To run the application just run the following command
+```node
+npm start
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
