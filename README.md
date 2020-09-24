@@ -1,6 +1,5 @@
 # Image Overlapping slider - React
-This project is an implementation of a design componenent often seen in a lot of websites.
-I opted to do a React implementation to keep my skills up to date.
+This project is an implementation of a design component often seen on a lot of websites.
 
 ## Demo
 
